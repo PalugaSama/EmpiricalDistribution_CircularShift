@@ -10,7 +10,7 @@ function plot_1E1S(channel, folder_name)
     end
 
     % Chemins vers les fichiers
-    base_folder = '/home/localadmin/Documents/AnalyseHEP/EmpiricalDistribution/CircularShift/Data/Average_file';
+    base_folder = '/home/localadmin/Documents/AnalyseHEP/EmpiricalDistribution/CircularShift/Results/Result_CircularShift/Average_file';
     average_file_path = fullfile(base_folder, sprintf('average_%s.mat', folder_name));
     significatif_file_path = fullfile(base_folder, sprintf('significatif_%s.mat', folder_name));
     

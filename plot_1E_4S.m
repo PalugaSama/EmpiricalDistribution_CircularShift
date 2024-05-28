@@ -12,7 +12,7 @@ function plot_1E_4S(channel)
     % Les différents dossiers correspondant aux stades de sommeil
     sleep_stages = {'W', 'N2', 'N3', 'REM'};
     colors = {'b', 'g', 'm', 'c'}; % Couleurs pour chaque stade
-    base_folder = '/home/localadmin/Documents/AnalyseHEP/EmpiricalDistribution/CircularShift/Data/Average_file';
+    base_folder = '/home/localadmin/Documents/AnalyseHEP/EmpiricalDistribution/CircularShift/Results/Result_CircularShift/Average_file';
 
     % Créer une figure pour visualiser les résultats pour le channel spécifié
     figure;

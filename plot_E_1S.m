@@ -43,3 +43,5 @@ function plot_E_1S(folder_name, output_folder)
 
     hold off;
 end
+
+
